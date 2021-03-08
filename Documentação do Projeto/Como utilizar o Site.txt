@@ -1,0 +1,25 @@
+﻿Como Utilizar o Site:
+
+
+1º - Você precisa instalar o Xampp, MySql, Apache e o Visual Studio Code, após instalar e configurar todos estes aplicativos abra o Xampp e de start no Apache e Mysql.
+
+
+2º - Abra o Visual Studio, no canto superior esquerdo, vá em File > Open Folder, e abra a pasta em que os arquivos do site estão localizados.
+
+
+3º -  Após Abrir a pasta, no canto superior esquerdo vá em Terminal > New Terminal e instale as dependências necessárias para utilizar o site, são elas:
+
+
+Sequelize, MySql2, Multer, Express, Express-Handlebars, Nodemailer, Express-Session, nodemon
+
+
+Para fazer a instalação digite “npm install --save” antes de cada dependência.
+
+
+Obs: Verificar se realmente está dentro da pasta do site, para instalar no local correto!
+
+
+Ex: npm install --save sequelize 
+
+
+4º - Abra o Cmd, navegue até a pasta do site e execute o comando Nodemon server.js, após executar este comando vá até o navegador e digite “http://localhost:3000”.
